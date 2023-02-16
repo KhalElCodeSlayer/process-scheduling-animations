@@ -1,0 +1,116 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+
+/* Header Styles */
+header {
+    height: 100px;
+}
+
+header > img {
+    height: 50px;
+    width: 80px;
+    margin: 0px auto 0px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+li {
+    padding: 5px 10px;
+}
+
+li:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* Main Styles */
+main {
+    min-height: calc(100vh - 150px);
+    background-color: #808080;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.algo-links {
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    background-color: #dadada;
+    color: #fff;
+    border-radius: 20px;
+    width: 200px;
+}
+
+section.box-up-col {
+    background-color: bisque;
+    padding: 100px;
+}
+
+#queue {
+    min-height: 200px;
+    background-color: aquamarine;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 60%;
+    height: 100%;
+    border-right: solid 3px black;
+}
+
+.right {
+    width: 70%;
+}
+
+.process {
+    height: 50px;
+    min-width: 50px;
+    max-width: 100px;
+    background-color: red;
+    border: dashed 1px yellow;
+}
+
+/* Other Styles */
+.box-up-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-up-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: solid 2px #000;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+/* Footer Styles */
+footer {
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
